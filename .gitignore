@@ -1,0 +1,31 @@
+# EcoData input and generated data
+/dados_recebidos/
+/EcoData_Organizado/
+/EcoData_Duplicados_Arquivados/
+
+# Notebook backups and autosaves
+*_backup*.ipynb
+*_antes_*.ipynb
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Temporary files and virtual environments
+*.tmp
+*.temp
+.venv/
+venv/
+env/
+ENV/
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+
+# Common operating system files
+.DS_Store
+Thumbs.db
