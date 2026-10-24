@@ -114,7 +114,7 @@ ecodata/
 
 **Pré-requisitos:** Python 3, Pandas e openpyxl. Use JupyterLab ou o suporte a notebooks do VS Code para abrir o `.ipynb`. As versões observadas neste ambiente foram Python 3.14.6, Pandas 3.0.5 e openpyxl 3.1.5; elas descrevem o ambiente verificado, não uma matriz de compatibilidade testada.
 
-Após a publicação da branch `main`, em um terminal PowerShell:
+Clone o repositório publicado e, em um terminal PowerShell:
 
 ```powershell
 git clone https://github.com/ayrton-marquezin-venancio/ecodata.git
@@ -138,9 +138,9 @@ Encerre o monitor com `Ctrl+C`. Ele realiza **somente a organização**; execute
 
 ## Histórico de versões
 
-O [repositório de destino](https://github.com/ayrton-marquezin-venancio/ecodata) estava **vazio na verificação de 24/10/2026**. Os hashes abaixo existem no Git **local** e pertencem à história de `main`; os links individuais e o [histórico da branch](https://github.com/ayrton-marquezin-venancio/ecodata/commits/main/) **só ficarão acessíveis depois da publicação de `main`**. Nenhum `push` foi feito para esta documentação.
+O [repositório EcoData no GitHub](https://github.com/ayrton-marquezin-venancio/ecodata) recebeu a branch `main` e o histórico local em 24/10/2026. Os commits da tabela foram confirmados na história publicada; os links abrem cada versão, e o [histórico de commits da branch principal](https://github.com/ayrton-marquezin-venancio/ecodata/commits/main/) mostra sua evolução.
 
-| Marco confirmado no Git local | Commit | Acesso após publicação |
+| Marco | Commit publicado | Versão |
 |---|---|---|
 | Estado inicial registrado | `f5b569f` | [Consultar versão](https://github.com/ayrton-marquezin-venancio/ecodata/tree/f5b569f28ec783511542efa0aa528c58270798ab) |
 | Organização e hash | `1a701d8` | [Consultar versão](https://github.com/ayrton-marquezin-venancio/ecodata/tree/1a701d8ba97ed31b6e49f9a7f3d6b83f85382b04) |
@@ -150,9 +150,10 @@ O [repositório de destino](https://github.com/ayrton-marquezin-venancio/ecodata
 | Consolidação R4–R6 | `bbfc3e6` | [Consultar versão](https://github.com/ayrton-marquezin-venancio/ecodata/tree/bbfc3e6d1e625397cd7365085265dae28ca53fad) |
 | Ajustes RV01/RV02 | `fabfb07` | [Consultar versão](https://github.com/ayrton-marquezin-venancio/ecodata/tree/fabfb07961a8061b7c61b628df1aa1aeaeb4bd1d) |
 | Monitor de ingestão | `1431819` | [Consultar versão](https://github.com/ayrton-marquezin-venancio/ecodata/tree/1431819bc59e90ced505b23b2c76d359bbd74586) |
-| **Código e notebook finais distribuídos** | **`095b5ef`** | [Consultar versão](https://github.com/ayrton-marquezin-venancio/ecodata/tree/095b5ef39db5b8ea2673f36766a0f5c2bd6e9bba) |
+| **Código e notebook finais distribuídos** | **`095b5ef`** | [Abrir no GitHub](https://github.com/ayrton-marquezin-venancio/ecodata/tree/095b5ef39db5b8ea2673f36766a0f5c2bd6e9bba) |
+| README e histórico publicados | `4badc9e` | [Abrir no GitHub](https://github.com/ayrton-marquezin-venancio/ecodata/tree/4badc9ece69d1746ccbb1bc91f8f6a9637524d56) |
 
-O commit de código **`095b5ef39db5b8ea2673f36766a0f5c2bd6e9bba`** define o nome do notebook final, preserva seu código consolidado e atualiza o monitor para carregá-lo. Os commits posteriores até o `HEAD` local **`954e8838ef6d4debacb7a0cfa014aeb126e27ee3`** ajustam a seleção de arquivos distribuídos e a documentação; não modificam as funções do notebook. Esta edição do README ainda **não tem commit próprio**. Um ZIP é um retrato de uma versão específica; apenas os commits efetivamente enviados ao GitHub disponibilizarão toda a evolução.
+O commit de código **`095b5ef39db5b8ea2673f36766a0f5c2bd6e9bba`** define o notebook final e atualiza o monitor para carregá-lo. O commit **`4badc9ece69d1746ccbb1bc91f8f6a9637524d56`** publica esta documentação; o commit anterior ao README, **`954e8838ef6d4debacb7a0cfa014aeb126e27ee3`**, contém os ajustes de distribuição. O ZIP é um retrato de uma versão específica; o GitHub preserva a evolução nos commits publicados.
 
 ## Limites e próximos passos
 
