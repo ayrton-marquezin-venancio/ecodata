@@ -29,3 +29,7 @@ ENV/
 # Common operating system files
 .DS_Store
 Thumbs.db
+
+# Local revision exports and investigation artifacts
+/Versões Git/
+/auditoria_recuperacao_git/
