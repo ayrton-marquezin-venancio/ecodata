@@ -1,0 +1,4 @@
+﻿id_registro,estacao_id,data,temperatura_c,umidade_relativa_pct,origem_dado
+TESTE-temperatura-001,FICTICIA-temperatura,2026-10-24,24,60,FICTICIO_TESTE_AUTOMACAO
+TESTE-temperatura-002,FICTICIA-temperatura,2026-10-24,27,55,FICTICIO_TESTE_AUTOMACAO
+TESTE-temperatura-003,FICTICIA-temperatura,2026-10-24,22,70,FICTICIO_TESTE_AUTOMACAO

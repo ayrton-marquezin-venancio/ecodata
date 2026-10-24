@@ -1,0 +1,4 @@
+﻿id_registro,estacao_id,data,temperatura_c,umidade_relativa_pct,origem_dado
+TESTE-Temperatura-A-001,ESTACAO-Temperatura-A,2026-10-24,21,51,FICTICIO_TESTE_DUPLICATAS
+TESTE-Temperatura-A-002,ESTACAO-Temperatura-A,2026-10-24,22,52,FICTICIO_TESTE_DUPLICATAS
+TESTE-Temperatura-A-003,ESTACAO-Temperatura-A,2026-10-24,23,53,FICTICIO_TESTE_DUPLICATAS

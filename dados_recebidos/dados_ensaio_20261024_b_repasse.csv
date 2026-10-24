@@ -1,0 +1,4 @@
+﻿id_registro,estacao_id,data,observacao,origem_dado
+TESTE-Pendencias-B-001,ESTACAO-Pendencias-B,2026-10-24,OBS_Pendencias_B_1,FICTICIO_TESTE_DUPLICATAS
+TESTE-Pendencias-B-002,ESTACAO-Pendencias-B,2026-10-24,OBS_Pendencias_B_2,FICTICIO_TESTE_DUPLICATAS
+TESTE-Pendencias-B-003,ESTACAO-Pendencias-B,2026-10-24,OBS_Pendencias_B_3,FICTICIO_TESTE_DUPLICATAS
