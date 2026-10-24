@@ -17,7 +17,7 @@ import pandas as pd
 
 
 def carregar_organizador(pasta_projeto):
-    notebook = pasta_projeto / "Automação_Ecodata.ipynb"
+    notebook = pasta_projeto / "Automacao_Ecodata_RV01_RV02_validado_20261024_96ae10bd047d.ipynb"
     conteudo = json.loads(notebook.read_text(encoding="utf-8"))
     nomes = {
         "listar_arquivos", "identificar_categoria",
