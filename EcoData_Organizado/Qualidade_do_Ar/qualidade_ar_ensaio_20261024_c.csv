@@ -1,0 +1,4 @@
+﻿id_registro,estacao_id,data,pm25_ug_m3,pm10_ug_m3,origem_dado
+TESTE-Qualidade_do_Ar-C-001,ESTACAO-Qualidade_do_Ar-C,2026-10-24,8,17,FICTICIO_TESTE_DUPLICATAS
+TESTE-Qualidade_do_Ar-C-002,ESTACAO-Qualidade_do_Ar-C,2026-10-24,9,18,FICTICIO_TESTE_DUPLICATAS
+TESTE-Qualidade_do_Ar-C-003,ESTACAO-Qualidade_do_Ar-C,2026-10-24,10,19,FICTICIO_TESTE_DUPLICATAS
