@@ -53,10 +53,27 @@ Mantenha o processo aberto enquanto quiser detectar novas entradas; encerre com 
 | `.gitignore` | Exclui dados recebidos, saídas, arquivos arquivados e cópias locais. |
 | `AGENTS.md` | Regras de preservação e versionamento usadas no desenvolvimento. |
 
-Os diretórios de dados não são publicados no GitHub. Depois de clonar, crie `dados_recebidos/` e forneça seus próprios arquivos. As revisões do notebook podem ser consultadas pelo histórico Git; a pasta local `Versões Git/` contém cópias de consulta e não integra a versão publicada.
+Os diretórios de dados não são publicados no GitHub. Depois de clonar, crie `dados_recebidos/` e forneça seus próprios arquivos. A pasta local `Versões Git/` contém cópias de consulta e não integra a versão publicada.
+
+## Histórico de versões
+
+Depois que a branch `main` for publicada, [o histórico completo de commits](https://github.com/ayrton-marquezin-venancio/ecodata/commits/main/) permitirá abrir qualquer versão anterior. Em cada commit, escolha **Browse files** para ver o notebook daquela época. Estes são alguns marcos do desenvolvimento:
+
+| Marco | Versão no GitHub |
+|---|---|
+| Estado inicial | [f5b569f](https://github.com/ayrton-marquezin-venancio/ecodata/tree/f5b569f28ec783511542efa0aa528c58270798ab) |
+| Organização e hash | [1a701d8](https://github.com/ayrton-marquezin-venancio/ecodata/tree/1a701d8ba97ed31b6e49f9a7f3d6b83f85382b04) |
+| Ingestão segura R1 | [91e2445](https://github.com/ayrton-marquezin-venancio/ecodata/tree/91e2445aeb8cb35cac26e8dfc60899be67ed7075) |
+| Erros de leitura R2 | [49eff6d](https://github.com/ayrton-marquezin-venancio/ecodata/tree/49eff6de76e8412895fea50417bc05b216777f39) |
+| Identificador opcional R3 | [bc3623a](https://github.com/ayrton-marquezin-venancio/ecodata/tree/bc3623aec518199e77cd0b084bff2af561aeffad) |
+| Integridade, classificação e documentação R4–R6 | [bbfc3e6](https://github.com/ayrton-marquezin-venancio/ecodata/tree/bbfc3e6d1e625397cd7365085265dae28ca53fad) |
+| Ajustes posteriores RV01/RV02 | [fabfb07](https://github.com/ayrton-marquezin-venancio/ecodata/tree/fabfb07961a8061b7c61b628df1aa1aeaeb4bd1d) |
+| Versão final publicada | [main](https://github.com/ayrton-marquezin-venancio/ecodata/tree/main) |
+
+O ZIP de distribuição contém apenas os arquivos da versão final. O histórico é preservado pelo repositório Git e ficará acessível no GitHub após o `push` da `main`.
 
 ## Resultado observado e limites
 
 No inventário local de **24/10/2026**, havia **48 arquivos recebidos**, **38 CSVs ativos** e **10 cópias arquivadas**. A última verificação salva no notebook encontrou **0 duplicatas exatas entre os 38 ativos**. Essas contagens representam aquele estado dos dados e podem mudar após novas entradas ou arquivamentos.
 
-A classificação depende do nome do arquivo; `Pendencias` exige revisão humana. A conversão XLSX usa a primeira planilha. CSVs devem ser legíveis em UTF-8-SIG. O monitor funciona somente enquanto seu processo está em execução. Os relatórios de qualidade e as saídas salvas no notebook registram observações, não uma garantia de que todos os dados estejam corretos.
+A classificação depende do nome do arquivo; `Pendencias` exige revisão humana. A conversão XLSX usa a primeira planilha. CSVs devem ser legíveis em UTF-8 (com ou sem BOM). O monitor funciona somente enquanto seu processo está em execução. Os relatórios de qualidade e as saídas salvas no notebook registram observações, não uma garantia de que todos os dados estejam corretos.
